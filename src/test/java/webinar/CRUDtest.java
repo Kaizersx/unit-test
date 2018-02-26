@@ -11,7 +11,7 @@ public class CRUDtest extends Assert {
        Entity entity= new Entity();
        entity.setId(1);
        assertTrue(crud.create(entity));
-       assertNotNull(crud.read(2));
+       assertNotNull(crud.read(7));
        assertTrue(crud.update(entity));
 
     }
